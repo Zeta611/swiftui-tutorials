@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69366A3F22F5E77600BAC75F /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69366A3E22F5E77600BAC75F /* charleyrivers.jpg */; };
+		69366A4322F5F27F00BAC75F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69366A4222F5F27F00BAC75F /* UserData.swift */; };
 		69369B5622F4DB2500BEF173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69369B5522F4DB2500BEF173 /* AppDelegate.swift */; };
 		69369B5822F4DB2500BEF173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69369B5722F4DB2500BEF173 /* SceneDelegate.swift */; };
 		69369B5A22F4DB2500BEF173 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69369B5922F4DB2500BEF173 /* LandmarkDetail.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69366A3E22F5E77600BAC75F /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		69366A4222F5F27F00BAC75F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		69369B5222F4DB2500BEF173 /* LandmarksSwiftUITutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarksSwiftUITutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69369B5522F4DB2500BEF173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69369B5722F4DB2500BEF173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			children = (
 				69B5A08622F5907C00AD2803 /* Data.swift */,
 				69B5A08422F58F3600AD2803 /* Landmark.swift */,
+				69366A4222F5F27F00BAC75F /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				69B5A07422F58F0500AD2803 /* stmarylake.jpg */,
 				69B5A07522F58F0500AD2803 /* chilkoottrail.jpg */,
 				69B5A07622F58F0500AD2803 /* rainbowlake.jpg */,
+				69366A3E22F5E77600BAC75F /* charleyrivers.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				69369B6222F4DB2800BEF173 /* LaunchScreen.storyboard in Resources */,
 				69B5A07D22F58F0500AD2803 /* umbagog.jpg in Resources */,
 				69B5A08122F58F0500AD2803 /* stmarylake.jpg in Resources */,
+				69366A3F22F5E77600BAC75F /* charleyrivers.jpg in Resources */,
 				69B5A07F22F58F0500AD2803 /* chincoteague.jpg in Resources */,
 				69369B5F22F4DB2800BEF173 /* Preview Assets.xcassets in Resources */,
 				69B5A07922F58F0500AD2803 /* icybay.jpg in Resources */,
@@ -241,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B5A08722F5907C00AD2803 /* Data.swift in Sources */,
+				69366A4322F5F27F00BAC75F /* UserData.swift in Sources */,
 				69369B5622F4DB2500BEF173 /* AppDelegate.swift in Sources */,
 				69369B6A22F4DE6300BEF173 /* CircleImage.swift in Sources */,
 				69369B6C22F4DFA800BEF173 /* MapView.swift in Sources */,
